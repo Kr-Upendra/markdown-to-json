@@ -1,0 +1,40 @@
+[
+  {
+    "options": [
+      {
+        "content": "2",
+        "content_type": "MARKDOWN",
+        "is_correct": false,
+        "multimedia": []
+      },
+      {
+        "content": "3",
+        "content_type": "MARKDOWN",
+        "is_correct": false,
+        "multimedia": []
+      },
+      {
+        "content": "5",
+        "content_type": "MARKDOWN",
+        "is_correct": false,
+        "multimedia": []
+      },
+      {
+        "content": "4",
+        "content_type": "MARKDOWN",
+        "is_correct": true,
+        "multimedia": []
+      }
+    ],
+    "question_id": "52f4fd04-cb72-4372-89c1-0b69c38fa6f4",
+    "question_type": "CODE_ANALYSIS_MULTIPLE_CHOICE",
+    "question": "Considering the given code snippet, which of the following options is correct?<br/><br/>Statement-1: In the <b>read</b> method, <i>this</i> refers to the <i>window</i> object.<br/>Statement-2: In the <b>save</b> method, <i>this</i> refers to the <b>blog1</b> object.<br>",
+    "question_content_type": "MARKDOWN",
+    "code": "function book(author, title) {\nreturn {  \n author: author,\ntitle: title,\nread: function() {\nconsole.log(this);\n}\n};\n}\n\nconst book1 = book(\"Stan Lee\", \"The Fantastic Four\");\nbook1.read();\n\nfunction blog(author, title) {\nreturn {\nauthor,\ntitle,\nsave: () => {\nconsole.log(this);\n}\n};\n}\n\nconst blog1 = blog(\"Mark\", \"Latest Updates in ES6\");\nblog1.save();",
+    "tag_names": [
+      "markdown",
+      " html"
+    ],
+    "explanation": "Nothing"
+  }
+]
