@@ -8,15 +8,11 @@ A Python Script that converts given markdown file's content into JSON but there 
 - There are some required fields in markdown which needs to be there otherwise it will generate an error.
 - After creating markdown we need to pass it's path at here.
   ```code
-  
   default_filename = "your markdown file path"
-     
   ```
 - After this we need to run main script
   ```bash
-  
   python main.py
-  
   ```
 - If there are no missing required fields it will generate an output file called output.json which will be containing well structured json data extracted from markdown file.
 
@@ -43,9 +39,7 @@ const blog1 = blog("Mark", "Latest Updates in ES6"); blog1.save(); ---END
 - It requires a '---END' flag at the end of a specific question.
 - Some required fields which needs to be in markdown.
 ```
-
 ["@QUESTION_ID", "@QUESTION_TYPE", "@QUESTION", "@OPTION1", "@OPTION2", "@CORRECT_OPTIONS"]
-
 ```
 
 ## Output 
